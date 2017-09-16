@@ -1,3 +1,164 @@
+<!DOCTYPE html>
+<html lang="cn">
 <head>
-<meta http-equiv="refresh" content="0;url=https://github.com/gy-games/smartping/blob/master/readme.md"> 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SmartPing</title>
+<meta name="keywords" content="网络监控，网络质量监控，Ping监控，互Ping" />
+<meta name="description" content="一款开源、高效、便捷的网络质量监控神器，支持单项Ping，反向Ping，互Ping，拓扑绘图与报警展示。" />
+
+<!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="assets/css/main.css" rel="stylesheet">
+
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
+
 </head>
+
+<body data-spy="scroll" data-offset="0" data-target="#navigation">
+
+<!-- Fixed navbar -->
+	<div id="navigation" class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="#"><b>SmartPing</b></a>
+		</div>
+		<div class="navbar-collapse collapse">
+		  <ul class="nav navbar-nav">
+			<li class="active"><a href="#home" class="smothscroll">首页</a></li>
+			  <li><a href="https://github.com/gy-games/smartping/wiki" target="_blank"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>下载安装</a></li>
+			<li><a href="https://github.com/gy-games/smartping" target="_blank">Github Project</a></li>
+		  </ul>
+		</div><!--/.nav-collapse -->
+	  </div>
+	</div>
+
+<section id="home" name="home"></section>
+<div id="headerwrap">
+	<div class="container">
+		<div class="row centered">
+			<div class="col-lg-12">
+				<h1>SmartPing</h1>
+				<h3>一款开源、高效、便捷的网络质量监控神器！</h3>
+				<br>
+			</div>
+			<div class="col-lg-2">
+				<h5>功能</h5>
+				<p>支持正/反向PING绘图与时间查询，支持组网后的拓扑显示，支持报警规则设定。</p>
+				<img class="hidden-xs hidden-sm hidden-md" src="assets/img/arrow1.png">
+			</div>
+			<div class="col-lg-8">
+				<img class="img-responsive" src="assets/img/app-bg.png" alt="">
+			</div>
+			<div class="col-lg-2">
+				<br>
+				<img class="hidden-xs hidden-sm hidden-md" src="assets/img/arrow2.png">
+				<h5>特性</h5>
+				<p>Go语言编写跨平台，去中心化设计，数据周期性清理免维护.</p>
+			</div>
+		</div>
+	</div> <!--/ .container -->
+</div><!--/ #headerwrap -->
+
+<section id="desc" name="desc"></section>
+<!-- INTRO WRAP -->
+<div id="intro">
+	<div class="container">
+		<div class="row centered">
+			<div class="col-lg-4">
+				<img src="assets/img/intro01.png" alt="">
+				<h3>开源</h3>
+				<p>项目代码100%开源并可无条件免费使用。所有的源代码均通过 <a target="_blank" href="https://github.com/gy-games/smartping/blob/master/LICENSE">Apache</a> 授权协议 托管在 <a target="_blank" href="https://github.com/gy-games/smartping">GitHub</a> 上。</p>
+			</div>
+			<div class="col-lg-4">
+				<img src="assets/img/intro02.png" alt="">
+				<h3>跨平台</h3>
+				<p>任何 <a target="_blank" href="http://golang.org/">Go 语言</a> 支持的平台都可以运行 Gogs，包括 Windows、Mac、Linux 以及 ARM。</p>
+			</div>
+			<div class="col-lg-4">
+				<img src="assets/img/intro03.png" alt="">
+				<h3>无中心化</h3>
+				<p>独特的 <a target="">去中心化</a>、<a href=""  target="_blank">数据循环</a> 写入设计，并采用嵌入式数据库 <a href="https://www.sqlite.org/" target="_blank">Sqlite</a> 进行数据存数。</p>
+			</div>
+		</div>
+		<br>
+		<hr>
+	</div> <!--/ .container -->
+</div><!--/ #introwrap -->
+
+<!-- FEATURES WRAP -->
+<div id="features">
+	<div class="container">
+		<div class="row">
+			<h1 class="centered"  style="margin-top: -25px;">功能截图</h1>
+			<br>
+			<div class="col-lg-6 centered">
+				正/反向PING
+			<img class="centered" src="assets/img/index.png" alt="" style="width:93%">
+			</div>
+			<div class="col-lg-6 centered">
+                自动拓扑
+				<img class="centered" src="assets/img/topology.png" alt="" style="width:100%">
+			</div>
+		</div>
+	</div><!--/ .container -->
+</div><!--/ #features -->
+
+<section id="contact" name="contact"></section>
+<div id="footerwrap">
+	<div class="container">
+		<div class="col-lg-5">
+			<h3>项目相关</h3>
+			<ul>
+				<li>
+					<a href="https://github.com/gy-games/smartping/issues" target="_blank" style="color:white">Issues 交流</a>
+				</li>
+				<li>
+					<a href="https://github.com/gy-games/smartping/issues" target="_blank" style="color:white">Issues 交流</a>
+				</li>
+				<li>
+					<a href="https://github.com/gy-games/smartping/releases" target="_blank" style="color:white">Api 文档</a>
+				</li>
+				<li>
+					交流QQ群 : 34862084
+				</li>
+			</ul>
+		</div>
+		
+		<div class="col-lg-7">
+			<h3>Who Uses SmartPing</h3>
+			<br>
+			<a href="http://www.gyyxol.cn" target="_blank"><img src="assets/img/whouse/gyyx.png" alt=""></a>
+		</div>
+	</div>
+</div>
+<div id="c">
+	<div class="container">
+		<p>Copyright &copy; 2017.SmartPing.Org</p>
+	
+	</div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/bootstrap.js"></script>
+<script>
+$('.carousel').carousel({
+  interval: 3500
+})
+</script>
+</body>
+</html>
